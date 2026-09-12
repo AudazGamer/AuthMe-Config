@@ -32,10 +32,8 @@ This configuration uses **Argon2** for password hashing.
 
 On Linux, the Argon2 system library must be installed before starting the server.
 
-#### Arch Linux / CachyOS
-
 ```bash
-sudo pacman -S argon2
+sudo <your-package-manager> install argon2
 ```
 
 > ⚠️ **Warning:** If the Argon2 library is unavailable, AuthMe may fail to initialize the configured password hashing algorithm and the server may fail to start correctly.
